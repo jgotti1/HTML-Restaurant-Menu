@@ -10,7 +10,13 @@ h1,
 h2 {
     color: darkred;
 }
-
+.sd {
+    font-size: medium;
+    font-family: fantasy;
+    font-size: x-large;
+    color:green;
+    
+}
 h3, 
 p,
 li {
@@ -40,7 +46,13 @@ nav ul {
 nav li {
     display: inline;
 }
-
+.location {
+    display: inline-table;
+    text-align: center;
+    font-family: Georgia;
+    font-style: italic;
+    font-size: larger;
+}
 nav a {
     text-decoration: none;
     font-size: 1.6em;
@@ -58,8 +70,8 @@ nav a:hover {
     background-color: white;
 }
 
-#banner img {
-    width: 60%;
+#banner {
+    width: 600px;
     height: auto;
 }
 
@@ -70,8 +82,9 @@ nav a:hover {
     border-radius: 5px;
     color: darkred;
     font-size: 2em;
-    padding: 20px;
-    margin: 10px;
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
 }
 
 table {
@@ -83,4 +96,15 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+footer {
+font-size: xx-large;
+color: darkblue;
+
+}
+.highlight {
+    text-emphasis: double-circle red;
+   -webkit-text-emphasis: double-circle red;
+    color: crimson;
+    text-rendering: auto;
 }
